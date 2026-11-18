@@ -1,0 +1,15 @@
+{
+  "id": "figuras3d",
+  "name": "3D figures",
+  "version": "1.0.0",
+  "description": "Viewer for generative 3D figures (organic shapes made with ComfyUI/TRELLIS by the agent's own CLI engine): every version of a figure, solid or wireframe, side-by-side or overlaid comparison, preview images.",
+  "parts": ["pages"],
+  "pages": { "prefix": "figura-", "kind": "preview", "title": "3D figures: %s" },
+  "viewer": { "icon": "🌀", "label": "3D figures", "i18n": { "es": { "label": "Figuras 3D" } } },
+  "i18n": {
+    "es": {
+      "name": "Figuras 3D",
+      "description": "Visor de figuras 3D generativas (formas orgánicas hechas con ComfyUI/TRELLIS por el motor CLI del agente): todas las versiones de una figura, sólido o malla, comparación lado a lado o superpuesta, vistas previas."
+    }
+  }
+}
